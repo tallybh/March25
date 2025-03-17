@@ -1,0 +1,8 @@
+services:
+  webapiexample:
+    image: ${DOCKER_REGISTRY-}webapiexample
+    build:
+      context: .
+      dockerfile: WebApiExample/Dockerfile
+ 
+
